@@ -15,4 +15,4 @@ async def on_message(message):
     if message.content.startswith('<:uditmass:915055277500428309>'):
         await message.channel.send('<@594361076880113683>')
 
-client.run('')
+client.run('TOKEN')
