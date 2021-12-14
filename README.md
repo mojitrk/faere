@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](mojitrk.github.io/faere-bot) <!-- fix link -->
+[![Product Name Screen Shot][product-screenshot]](https://mojitrk.github.io/faere-bot) <!-- fix link -->
 
 Just a simple bot for your Discord server, built with Python.
 
@@ -97,17 +97,21 @@ To get the bot up and running locally, follow these steps.
 
 1. Create a Discord application at developers.discord.com. <!-- fix this -->
 2. Assign text channel permissions and get its API key.
-2. Clone the repo
+3. Clone the repo
    ```sh
    git clone https://github.com/mojitrk/faere-bot.git
    ```
-3. Install prerequisites
+4. Install prerequisites
    ```sh
    pip install discord
    ```
-4. Enter your API key in `config.js`
+5. Enter your API key in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API KEY';
+   ```
+6. Run the launcher script
+   ```sh
+   ./launch.sh
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -115,9 +119,9 @@ To get the bot up and running locally, follow these steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Follow this "link" to add Faere to your server.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://mojitrk.github.io/faere-bot)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,7 +131,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [] Feature 1
 - [] Feature 2
 - [] Feature 3
-    - [] Nested Feature
 
 See the [open issues](https://github.com/mojitrk/faere-bot/issues) for a full list of proposed features (and known issues).
 
