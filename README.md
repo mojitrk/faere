@@ -28,10 +28,10 @@
   <p align="center">
     A simple bot for your Discord server!
     <br />
-    <a href="https://github.com/mojitrk/faere-bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mojitrk/faere-bot/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mojitrk/faere-bot">View Demo</a>
+    <a href="https://github.com/mojitrk/faere-bot/demo">View Demo</a> <!-- fix link -->
     ·
     <a href="https://github.com/mojitrk/faere-bot/issues">Report Bug</a>
     ·
@@ -68,53 +68,46 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](mojitrk.github.io/faere-bot) <!-- fix link -->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+Just a simple bot for your Discord server, built with Python.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/)
+* ["discordpy" Library](https://discordpy.readthedocs.io)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get the bot up and running locally, follow these steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* discordpy
   ```sh
-  npm install npm@latest -g
+  pip install discord
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Create a Discord application at developers.discord.com. <!-- fix this -->
+2. Assign text channel permissions and get its API key.
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/mojitrk/faere-bot.git
    ```
-3. Install NPM packages
+3. Install prerequisites
    ```sh
-   npm install
+   pip install discord
    ```
-4. Enter your API in `config.js`
+4. Enter your API key in `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = 'ENTER YOUR API KEY';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -166,7 +159,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Mohit - [@twitter_handle](https://twitter.com/mojitrk) - mohitrk.ru@gmail.com
 
 Project Link: [https://github.com/mojitrk/faere-bot](https://github.com/mojitrk/faere-bot)
 
@@ -185,7 +178,7 @@ Project Link: [https://github.com/mojitrk/faere-bot](https://github.com/mojitrk/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/mojitrk/faere-bot.svg?style=for-the-badge
 [contributors-url]: https://github.com/mojitrk/faere-bot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/mojitrk/faere-bot.svg?style=for-the-badge
 [forks-url]: https://github.com/mojitrk/faere-bot/network/members
 [stars-shield]: https://img.shields.io/github/stars/mojitrk/faere.svg?style=for-the-badge
 [stars-url]: https://github.com/mojitrk/faere-bot/stargazers
